@@ -72,3 +72,67 @@
     border-radius: 8px;
     width: 1440px;
 }
+/* Plants Section */
+.plants {
+    padding: 60px 50px;
+    text-align: center;
+ 
+}
+
+.plants h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.plants .highlight {
+    color: #ff6a00;
+}
+
+.plant-description {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #666;
+}
+
+.plant-grid {
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    gap: 30px;
+    padding: 0 80px;
+    margin-left:50px;
+}
+.plant-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    
+}
+
+.plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.plant-card h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+    color: #444444;
+}
+.plant-card p {
+    font-weight: bold;
+    color: #111111;
+}
+
+.plant-card button {
+    margin-top: 10px;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 8px 85px;
+    cursor: pointer;
+
+    
+}
